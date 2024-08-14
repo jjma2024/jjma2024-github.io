@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="estilos.css">
+</head>
+<body>
+    <header>
+        <h1>Encriptador de Texto</h1>
+    </header>
+    <main>
+        <section class="seccion-entrada">
+            <textarea id="textoEntrada" placeholder="Introduce el texto para encriptar"></textarea>
+            <div class="grupo-botones">
+                <button id="botonEncriptar">Encriptar</button>
+                <button id="botonDesencriptar">Desencriptar</button>
+            </div>
+        </section>
+        <section class="seccion-salida">
+            <textarea id="textoSalida" readonly placeholder="El resultado aparecerá aquí"></textarea>
+            <button id="botonCopiar">Copiar al portapapeles</button>
+        </section>
+    </main>
+    <footer>
+        <p>Creado por Jefferson M, 2024</p>
+    </footer>
+    <script src="scripts.js"></script>
+</body>
+</html>
